@@ -1,0 +1,39 @@
+html {
+    background: rgb(31, 23, 32);
+    color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    padding: 0 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: rgb(61, 40, 60);
+}
+
+nav > * {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%
+}
+
+nav p {
+    text-align:left;
+}
+
+nav select {
+    position: absolute;
+    right: 5px;
+}
+
+main {
+    padding: 5px;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
